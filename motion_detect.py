@@ -3,9 +3,9 @@ import smtplib
 from email.mime.text import MIMEText
 
 def send_alert():
-    sender_email = "deepanshusingh9918@gmail.com"
-    receiver_email = "singhdeepanshu979@gmail.com"
-    password = ""
+    sender_email = "email@gmail.com"
+    receiver_email = "email@gmail.com"
+    password = "APIkey"
     
     msg = MIMEText("Motion detected! Check your AI Camera system.")
     msg['Subject'] = "AI Camera Alert"
